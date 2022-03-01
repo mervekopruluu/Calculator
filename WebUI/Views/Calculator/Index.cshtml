@@ -1,0 +1,67 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="card bg-light mb-3">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-2">
+                    <input class="form-control form-control-sm" placeholder="Number1" id="txtNumber1" />
+                </div>
+                <div class="col-md-2">
+                    <input class="form-control form-control-sm" placeholder="Number2" id="txtNumber2" />
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-sm btn-info btn-block btn-calculate" data-operation-symbol="+" id="btnAdd">+</button>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-sm btn-info btn-block btn-calculate" data-operation-symbol="-" id="btnSubtract">-</button>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-sm btn-info btn-block btn-calculate" data-operation-symbol="*" id="btnMultiply">x</button>
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-sm btn-info btn-block btn-calculate" data-operation-symbol="/" id="btnDivide">/</button>
+                </div>
+            </div>
+            <div class="row mt-4" id="dvTable">
+                <div class="col-md-6">
+                    <table class="table table-responsive-sm" id="tbResult">
+                        <thead>
+                            <tr>
+                                <th>Number1</th>
+                                <th>Number2</th>
+                                <th>Operation</th>
+                                <th>Outcome</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <table id="tbCalculators" class="display table table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th>Number1</th>
+                            <th>Number2</th>
+                            <th>Operation</th>
+                            <th>Outcome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts{
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="~/Assets/custom/js/calculator.js"></script>
+}

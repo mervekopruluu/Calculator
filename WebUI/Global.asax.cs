@@ -1,0 +1,19 @@
+using Business.DependencyResolvers.Ninject;
+using DataAccess.Utilities.Mvc.Infrastructure;
+using System.Web.Mvc;
+using System.Web.Routing;
+
+namespace WebUI
+{
+    public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(new BusinessModule()));
+
+        }
+    }
+}

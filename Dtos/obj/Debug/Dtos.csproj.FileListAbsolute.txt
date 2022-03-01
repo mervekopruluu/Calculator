@@ -1,0 +1,6 @@
+C:\Me\MyProject\acerpro\Calculator\Dtos\bin\Debug\Dtos.dll
+C:\Me\MyProject\acerpro\Calculator\Dtos\bin\Debug\Dtos.pdb
+C:\Me\MyProject\acerpro\Calculator\Dtos\obj\Debug\Dtos.csproj.AssemblyReference.cache
+C:\Me\MyProject\acerpro\Calculator\Dtos\obj\Debug\Dtos.csproj.CoreCompileInputs.cache
+C:\Me\MyProject\acerpro\Calculator\Dtos\obj\Debug\Dtos.dll
+C:\Me\MyProject\acerpro\Calculator\Dtos\obj\Debug\Dtos.pdb

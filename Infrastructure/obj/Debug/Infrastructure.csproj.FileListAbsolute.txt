@@ -1,0 +1,7 @@
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\obj\Debug\Infrastructure.csproj.AssemblyReference.cache
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\obj\Debug\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Me\MyProject\acerpro\Calculator\Infrastructure\obj\Debug\Infrastructure.pdb
