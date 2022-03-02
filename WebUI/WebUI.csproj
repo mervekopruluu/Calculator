@@ -173,9 +173,9 @@
       <Project>{A7503CE1-0D31-469A-BB1D-A1A4EF434D87}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dtos\Dtos.csproj">
-      <Project>{734BD7DA-02DC-49DC-9CA4-6FF9630D4698}</Project>
-      <Name>Dtos</Name>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{04D5EC03-8025-44B2-8359-1E0698E6F713}</Project>
+      <Name>Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

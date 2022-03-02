@@ -87,8 +87,6 @@ C:\Me\MyProject\acerpro\Calculator\WebUI\bin\EntityFramework.SqlServer.xml
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Infrastructure.dll
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Infrastructure.pdb
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Infrastructure.dll.config
-C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Dtos.dll
-C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Dtos.pdb
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Enums.NET.dll
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Me\MyProject\acerpro\Calculator\WebUI\bin\Enums.NET.pdb

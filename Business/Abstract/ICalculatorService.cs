@@ -1,6 +1,6 @@
 ﻿using Dtos.Calculator;
-using Dtos.Result;
 using Entities.Concrete.Enums;
+using Entities.Result;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

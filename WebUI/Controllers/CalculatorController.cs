@@ -1,6 +1,6 @@
 ﻿using Business.Abstract;
 using Dtos.Calculator;
-using Dtos.Result;
+using Entities.Result;
 using System;
 using System.Collections.Generic;
 using System.Linq;

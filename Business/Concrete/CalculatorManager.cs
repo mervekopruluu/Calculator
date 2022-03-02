@@ -1,10 +1,9 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using Dtos.Calculator;
-using Dtos.Enums;
-using Dtos.Result;
 using Entities.Concrete;
 using Entities.Concrete.Enums;
+using Entities.Result;
 using EnumsNET;
 using Infrastructure.Abstract;
 using System;
@@ -35,7 +34,7 @@ namespace Business.Concrete
                 {
                     Outcome = calculator.Outcome,
                     Number1 = calculator.Number1,
-                    OperationType = (InternalOperationTypeEnum)calculator.OperationType,
+                    OperationType = (OperationTypeEnum)calculator.OperationType,
                     Number2 = calculator.Number2
                 });
                 return new Result
@@ -59,16 +58,16 @@ namespace Business.Concrete
             int returnData;
             switch (input.OperationType)
             {
-                case PublicOperationTypeEnum.add:
+                case OperationTypeEnum.add:
                     returnData = await _calculatorSoapService.AddAsync(input.Number1, input.Number2);
                     break;
-                case PublicOperationTypeEnum.subtract:
+                case OperationTypeEnum.subtract:
                     returnData = await _calculatorSoapService.SubtractAsync(input.Number1, input.Number2);
                     break;
-                case PublicOperationTypeEnum.divide:
+                case OperationTypeEnum.divide:
                     returnData = await _calculatorSoapService.DivideAsync(input.Number1, input.Number2);
                     break;
-                case PublicOperationTypeEnum.multiply:
+                case OperationTypeEnum.multiply:
                     returnData = await _calculatorSoapService.MultiplyAsync(input.Number1, input.Number2);
                     break;
                 default:
@@ -93,8 +92,8 @@ namespace Business.Concrete
             {
                 Number1 = x.Number1,
                 Number2 = x.Number2,
-                OperationType = (Dtos.Enums.PublicOperationTypeEnum)x.OperationType,
-                OperationTypeDisplay = ((Dtos.Enums.PublicOperationTypeEnum)x.OperationType).AsString(EnumFormat.Description),
+                OperationType = (OperationTypeEnum)x.OperationType,
+                OperationTypeDisplay = ((OperationTypeEnum)x.OperationType).AsString(EnumFormat.Description),
                 Outcome = x.Outcome
             }).ToList();
         }

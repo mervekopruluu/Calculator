@@ -93,10 +93,6 @@
       <Project>{A7503CE1-0D31-469A-BB1D-A1A4EF434D87}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dtos\Dtos.csproj">
-      <Project>{734BD7DA-02DC-49DC-9CA4-6FF9630D4698}</Project>
-      <Name>Dtos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{04d5ec03-8025-44b2-8359-1e0698e6f713}</Project>
       <Name>Entities</Name>

@@ -44,7 +44,9 @@
     <Compile Include="Abstract\IEntity.cs" />
     <Compile Include="Concrete\BaseEntity.cs" />
     <Compile Include="Concrete\Calculator.cs" />
-    <Compile Include="Concrete\Enums\InternalOperationTypeEnum.cs" />
+    <Compile Include="Concrete\Enums\OperationTypeEnum.cs" />
+    <Compile Include="Concrete\Result.cs" />
+    <Compile Include="Dtos\CalculatorDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

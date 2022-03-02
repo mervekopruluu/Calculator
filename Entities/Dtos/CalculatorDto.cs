@@ -1,13 +1,14 @@
-﻿using Entities.Abstract;
+﻿
 using Entities.Concrete.Enums;
 
-namespace Entities.Concrete
+namespace Dtos.Calculator
 {
-    public partial class Calculator : BaseEntity, IEntity
+    public class CalculatorDto
     {
         public int Number1 { get; set; }
         public int Number2 { get; set; }
         public OperationTypeEnum OperationType { get; set; }
+        public string OperationTypeDisplay { get; set; }
         public int Outcome { get; set; }
     }
 }

@@ -31,8 +31,6 @@ C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\System.Web.WebPages.Deploy
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Infrastructure.dll
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Infrastructure.pdb
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Infrastructure.dll.config
-C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Dtos.dll
-C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Dtos.pdb
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\Enums.NET.dll
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Me\MyProject\acerpro\Calculator\Business\bin\Debug\System.Web.Helpers.dll
